@@ -1,6 +1,7 @@
-.main-container{
+.main-container {
     padding: 10px;
 }
+
 /* ---------------------navStyling------------------ */
 
 nav {
@@ -8,201 +9,241 @@ nav {
     justify-content: space-around;
     background-color: rgb(221, 112, 112);
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
+
 .nav-div1 {
     display: flex;
     justify-content: center;
 }
+
 .nav-div2 {
     display: flex;
     font-size: larger;
     margin-top: 2%;
 }
+
 .nav-tattle {
     font-size: 40px;
     margin-top: 3%;
     color: rgb(84, 84, 120);
 }
-.icon{
+
+.icon {
     fill: rgb(100, 102, 158);
     margin-top: 25px;
     margin-left: 15%;
- }
-.nav-div1 img{
+}
+
+.nav-div1 img {
     width: 55px;
     height: 50px;
     margin-left: 10%;
 }
- /* -------------------------------pStyling-------------------------------- */
-p{
-    color:rgb(108, 103, 103) ;
+
+/* -------------------------------pStyling-------------------------------- */
+p {
+    color: rgb(108, 103, 103);
 }
+
 p a {
     color: rgb(22, 22, 234);
 }
+
 .logo {
     width: 55px;
     height: 50px;
     margin-left: 10%;
     margin-top: 3%;
 }
+
 /* ------------------------headingStyling------------------- */
-h1,h2{
+h1,
+h2 {
     color: rgb(56, 56, 145);
     margin-top: 13%;
     width: 100%;
 }
+
 /* ------------------------- mainStyling-----------------*/
-.link-list{
+.link-list {
     display: flex;
     flex-direction: column;
     text-decoration: underline;
 }
-.link-list a{
+
+.link-list a {
     margin-top: 10%;
     font-size: 1.5em;
     font-weight: bold;
 }
-.divs ul li{
+
+.divs ul li {
     text-decoration: none;
     list-style: none;
     padding: 20px;
 }
 
-.divs ul li a{
+.divs ul li a {
     color: navy;
     margin-left: 25%;
     margin-top: 2%;
     font-size: 1.55em;
-    font-weight:bold;
+    font-weight: bold;
 }
-.img-div img{
+
+.img-div img {
     width: 25%;
     height: 30px;
 }
-.tattle-logo2{
+
+.tattle-logo2 {
     width: 55px;
     height: 50px;
 }
-.logoLinks{
+
+.logoLinks {
     display: flex;
 }
 
 /* ------------------------footerStyling----------------------- */
-.footerContainer{
+.footerContainer {
     display: flex;
     gap: 15%;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
 }
-.footer-links{
+
+.footer-links {
     display: flex;
     flex-direction: column;
 }
-.footer-links a:hover{
+
+.footer-links a:hover {
     text-decoration: underline;
 }
-.footerContainer a{
+
+.footerContainer a {
     font-size: 15px;
     text-decoration: none;
-    color:rgb(108, 103, 103) ;
+    color: rgb(108, 103, 103);
 
 }
- #tattle{
+
+#tattle {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap:10px;
+    gap: 10px;
     color: rgb(108, 103, 103);
     margin-top: 5%;
 }
+
 .footer-para {
     font-size: 0.8em;
     margin-top: 25%;
     color: rgb(56, 56, 145);
     opacity: 0.7;
 }
-footer{
+
+footer {
     margin-top: 25%;
 }
+
 /* ---------------------This is @media for phone-------------------- */
-@media (min-width: 0) and (max-width:768px){   
-    .nav-div2{
+@media (min-width: 0) and (max-width:768px) {
+    .nav-div2 {
         display: none;
     }
 }
+
 /* -------------------------------This is @media for laptop */
 
 @media (min-width:768px) {
+
     /* .nav-div1{
         
     } */
-    .icon{
+    .icon {
         display: none;
     }
-    .nav-div2{
+
+    .nav-div2 {
         display: block;
         gap: 20%;
     }
-    .main-container{
+
+    .main-container {
         margin-left: 25%;
     }
 
-    h1{
+    h1 {
         margin-top: 3%;
     }
-    
-    .link-list .first-a{
+
+    .link-list .first-a {
         margin-top: 10px;
     }
-    .link-list a{
+
+    .link-list a {
         margin-top: 7%;
         font-size: 1.5em;
         font-weight: bold;
         margin-top: 4%;
     }
-    h2{
+
+    h2 {
         margin-top: 6%;
     }
-    .divs p{
+
+    .divs p {
         width: 70%;
         margin-top: 3%;
         line-height: 20px;
-        color:rgb(108, 103, 103) ;
+        color: rgb(108, 103, 103);
     }
-    .footer-para{
+
+    .footer-para {
         margin-top: 2%;
     }
-    p{
+
+    p {
         color: navy;
     }
-    .nav-div1{
+
+    .nav-div1 {
         margin-left: 15%;
         margin-top: 1%;
     }
-    footer{
+
+    footer {
         margin-top: 15%;
     }
-    .img-div{
+
+    .img-div {
         margin-left: 30%;
     }
-    #tattle{
+
+    #tattle {
         margin-top: 0;
     }
-    .footerContainer{
+
+    .footerContainer {
         gap: 5%;
         width: 80%;
     }
-   
-    .footer-links{
+
+    .footer-links {
         width: 30%;
     }
-    .footer-links a{
+
+    .footer-links a {
         margin-top: 2%;
     }
-    .nav-div2{
+
+    .nav-div2 {
         display: flex;
     }
 
