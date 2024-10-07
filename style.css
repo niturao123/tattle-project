@@ -17,27 +17,25 @@ nav a{
 }
 .nav-div2 {
     display: flex;
-    gap: 20px;
     font-size: larger;
     margin-top: 2%;
 }
 .nav-tattle {
     font-size: 40px;
     margin-top: 3%;
-    gap: 20px;
     color: rgb(84, 84, 120);
 }
+.icon{
+    fill: rgb(100, 102, 158);
+    margin-top: 25px;
+    margin-left: 15%;
+ }
 .nav-div1 img{
     width: 55px;
     height: 50px;
     margin-left: 10%;
 }
-.menu-img{
-    width: 25px;
-    height: 30px;
-    margin-top: 10px;
-}
-/* -------------------------------pStyling-------------------------------- */
+ /* -------------------------------pStyling-------------------------------- */
 p{
     color:rgb(108, 103, 103) ;
 }
@@ -141,7 +139,7 @@ footer{
     /* .nav-div1{
         
     } */
-    .menu{
+    .icon{
         display: none;
     }
     .nav-div2{
@@ -180,6 +178,10 @@ footer{
     p{
         color: navy;
     }
+    .nav-div1{
+        margin-left: 15%;
+        margin-top: 1%;
+    }
     footer{
         margin-top: 15%;
     }
@@ -199,6 +201,9 @@ footer{
     }
     .footer-links a{
         margin-top: 2%;
+    }
+    .nav-div2{
+        display: flex;
     }
 
 }
